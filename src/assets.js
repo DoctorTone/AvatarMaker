@@ -7,86 +7,6 @@ export default {
         "excludeFromRandomize": false
       },
       {
-        "value": "hair_aLine-asym-black",
-        "displayName": "ALine Asym Black",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "black"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-blonde",
-        "displayName": "ALine Asym Blonde",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "blonde"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-blue",
-        "displayName": "ALine Asym Blue",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "blue"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-brown",
-        "displayName": "ALine Asym Brown",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "brown"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-dark brown",
-        "displayName": "ALine Asym Dark brown",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "dark brown"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-gray",
-        "displayName": "ALine Asym Gray",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "gray"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-light brown",
-        "displayName": "ALine Asym Light brown",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "light brown"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-pink",
-        "displayName": "ALine Asym Pink",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "pink"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-red",
-        "displayName": "ALine Asym Red",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "red"
-        }
-      },
-      {
-        "value": "hair_aLine-asym-white",
-        "displayName": "ALine Asym White",
-        "description": {
-          "Type": "aLine-asym",
-          "Color": "white"
-        }
-      },
-      {
         "value": "hair_afro-1-black",
         "displayName": "Afro 1 Black",
         "description": {
@@ -243,6 +163,86 @@ export default {
         "displayName": "Afro 2 White",
         "description": {
           "Type": "afro-2",
+          "Color": "white"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-black",
+        "displayName": "ALine Asym Black",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "black"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-blonde",
+        "displayName": "ALine Asym Blonde",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "blonde"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-blue",
+        "displayName": "ALine Asym Blue",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "blue"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-brown",
+        "displayName": "ALine Asym Brown",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "brown"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-dark brown",
+        "displayName": "ALine Asym Dark brown",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "dark brown"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-gray",
+        "displayName": "ALine Asym Gray",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "gray"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-light brown",
+        "displayName": "ALine Asym Light brown",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "light brown"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-pink",
+        "displayName": "ALine Asym Pink",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-red",
+        "displayName": "ALine Asym Red",
+        "description": {
+          "Type": "aLine-asym",
+          "Color": "red"
+        }
+      },
+      {
+        "value": "hair_aLine-asym-white",
+        "displayName": "ALine Asym White",
+        "description": {
+          "Type": "aLine-asym",
           "Color": "white"
         }
       },
@@ -1691,9 +1691,9 @@ export default {
       "Type": {
         "options": [
           null,
-          "aLine-asym",
           "afro-1",
           "afro-2",
+          "aLine-asym",
           "bob-1",
           "braided-bun",
           "eraser-top-1",
@@ -3846,6 +3846,22 @@ export default {
         "matchRandomizationToNull": true
       },
       {
+        "value": "torso_style-1-digilabs-white",
+        "displayName": "Style 1 Digilabs White",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "digilabs-white"
+        }
+      },
+      {
+        "value": "torso_style-1-heart",
+        "displayName": "Style 1 Heart",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "heart"
+        }
+      },
+      {
         "value": "torso_style-1-sport-coat-1-dark",
         "displayName": "Style 1 Sport Coat 1 Dark",
         "description": {
@@ -3951,6 +3967,14 @@ export default {
           "Outfit": "ugly-christmas-1"
         },
         "matchRandomizationToNull": true
+      },
+      {
+        "value": "torso_style-1-uni-white",
+        "displayName": "Style 1 Uni White",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "uni-white"
+        }
       },
       {
         "value": "torso_style-1-waistcoat-and-cravat",
@@ -4087,6 +4111,8 @@ export default {
         "options": [
           "bowling-shirt-1-red",
           "combat-vest-red",
+          "digilabs-white",
+          "heart",
           "sport-coat-1-dark",
           "sport-coat-1-gray",
           "tshirt-1-hubs-black",
@@ -4100,6 +4126,7 @@ export default {
           "tshirt-pride03",
           "tshirt1-reactor",
           "ugly-christmas-1",
+          "uni-white",
           "waistcoat-and-cravat",
           "blouse-1-purple",
           "tshirt-1-baby-unicorn",
@@ -4370,6 +4397,14 @@ export default {
         }
       },
       {
+        "value": "headwear_digilabs-pink",
+        "displayName": "Digilabs Pink",
+        "description": {
+          "Type": "digilabs",
+          "Color": "pink"
+        }
+      },
+      {
         "value": "headwear_hijab-black",
         "displayName": "Hijab Black",
         "description": {
@@ -4489,6 +4524,7 @@ export default {
           null,
           "beach-umbrella",
           "beanie-1",
+          "digilabs",
           "hijab",
           "spokemon",
           "top-hat-1"
@@ -4499,11 +4535,11 @@ export default {
         "options": [
           "mixed",
           "red",
+          "pink",
           "black",
           "blue",
           "gray",
           "lavender",
-          "pink",
           "white"
         ]
       }
@@ -4606,6 +4642,10 @@ export default {
       {
         "value": "accessory_headphones-1-black",
         "displayName": "Headphones 1 Black"
+      },
+      {
+        "value": "accessory_headphones-1-purple",
+        "displayName": "Headphones 1 Purple"
       },
       {
         "value": "accessory_pool-mask-1",

@@ -1,7 +1,8 @@
 {
   "private": true,
+  "type": "module",
   "scripts": {
-    "gen-thumbnails": "node -r esm generate-thumbnails.js"
+    "gen-thumbnails": "node generate-thumbnails.js"
   },
   "dependencies": {
     "esm": "^3.2.25",
