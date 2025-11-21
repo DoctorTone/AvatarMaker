@@ -3862,6 +3862,14 @@ export default {
         }
       },
       {
+        "value": "torso_style-1-player-one-white",
+        "displayName": "Style 1 Player One White",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "player-one-white"
+        }
+      },
+      {
         "value": "torso_style-1-sport-coat-1-dark",
         "displayName": "Style 1 Sport Coat 1 Dark",
         "description": {
@@ -4113,6 +4121,7 @@ export default {
           "combat-vest-red",
           "digilabs-white",
           "heart",
+          "player-one-white",
           "sport-coat-1-dark",
           "sport-coat-1-gray",
           "tshirt-1-hubs-black",
@@ -4405,6 +4414,14 @@ export default {
         }
       },
       {
+        "value": "headwear_helmet-mixed",
+        "displayName": "Helmet Mixed",
+        "description": {
+          "Type": "helmet",
+          "Color": "mixed"
+        }
+      },
+      {
         "value": "headwear_hijab-black",
         "displayName": "Hijab Black",
         "description": {
@@ -4525,6 +4542,7 @@ export default {
           "beach-umbrella",
           "beanie-1",
           "digilabs",
+          "helmet",
           "hijab",
           "spokemon",
           "top-hat-1"
@@ -4572,6 +4590,10 @@ export default {
       {
         "value": "eyewear_metal-1",
         "displayName": "Metal 1"
+      },
+      {
+        "value": "eyewear_nerd",
+        "displayName": "Nerd"
       },
       {
         "value": "eyewear_punk-2",
