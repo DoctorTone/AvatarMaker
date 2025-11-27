@@ -2374,6 +2374,14 @@ export default {
         }
       },
       {
+        "value": "eyes_style-1-purple",
+        "displayName": "Style 1 Purple",
+        "description": {
+          "Style": "style-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "eyes_style-11-blue",
         "displayName": "Style 11 Blue",
         "description": {
@@ -2411,6 +2419,14 @@ export default {
         "description": {
           "Style": "style-11",
           "Color": "hazel"
+        }
+      },
+      {
+        "value": "eyes_style-11-purple",
+        "displayName": "Style 11 Purple",
+        "description": {
+          "Style": "style-11",
+          "Color": "purple"
         }
       },
       {
@@ -2454,6 +2470,14 @@ export default {
         }
       },
       {
+        "value": "eyes_style-12-purple",
+        "displayName": "Style 12 Purple",
+        "description": {
+          "Style": "style-12",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "eyes_style-13-blue",
         "displayName": "Style 13 Blue",
         "description": {
@@ -2491,6 +2515,14 @@ export default {
         "description": {
           "Style": "style-13",
           "Color": "hazel"
+        }
+      },
+      {
+        "value": "eyes_style-13-purple",
+        "displayName": "Style 13 Purple",
+        "description": {
+          "Style": "style-13",
+          "Color": "purple"
         }
       },
       {
@@ -2534,6 +2566,14 @@ export default {
         }
       },
       {
+        "value": "eyes_style-14-purple",
+        "displayName": "Style 14 Purple",
+        "description": {
+          "Style": "style-14",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "eyes_style-15-blue",
         "displayName": "Style 15 Blue",
         "description": {
@@ -2571,6 +2611,14 @@ export default {
         "description": {
           "Style": "style-15",
           "Color": "hazel"
+        }
+      },
+      {
+        "value": "eyes_style-15-purple",
+        "displayName": "Style 15 Purple",
+        "description": {
+          "Style": "style-15",
+          "Color": "purple"
         }
       },
       {
@@ -2614,6 +2662,14 @@ export default {
         }
       },
       {
+        "value": "eyes_style-2-purple",
+        "displayName": "Style 2 Purple",
+        "description": {
+          "Style": "style-2",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "eyes_style-3-blue",
         "displayName": "Style 3 Blue",
         "description": {
@@ -2651,6 +2707,14 @@ export default {
         "description": {
           "Style": "style-3",
           "Color": "hazel"
+        }
+      },
+      {
+        "value": "eyes_style-3-purple",
+        "displayName": "Style 3 Purple",
+        "description": {
+          "Style": "style-3",
+          "Color": "purple"
         }
       },
       {
@@ -2694,6 +2758,14 @@ export default {
         }
       },
       {
+        "value": "eyes_style-4-purple",
+        "displayName": "Style 4 Purple",
+        "description": {
+          "Style": "style-4",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "eyes_style-5-blue",
         "displayName": "Style 5 Blue",
         "description": {
@@ -2732,6 +2804,14 @@ export default {
           "Style": "style-5",
           "Color": "hazel"
         }
+      },
+      {
+        "value": "eyes_style-5-purple",
+        "displayName": "Style 5 Purple",
+        "description": {
+          "Style": "style-5",
+          "Color": "purple"
+        }
       }
     ],
     "description": {
@@ -2757,7 +2837,8 @@ export default {
           "brown",
           "gray",
           "green",
-          "hazel"
+          "hazel",
+          "purple"
         ]
       }
     },
