@@ -1,4 +1,4 @@
-@import url('../assets/fonts/Poppins.css');
+@import url("../assets/fonts/Poppins.css");
 
 :root {
   --main-bg-color: white;
@@ -41,7 +41,7 @@ body,
 }
 
 #root {
-  display:flex;
+  display: flex;
   flex-direction: column-reverse;
 }
 
@@ -82,7 +82,8 @@ label {
   padding: 6px 24px;
 }
 
-.categoryHeading h2, .categoryHeading .chevron {
+.categoryHeading h2,
+.categoryHeading .chevron {
   margin-right: 12px;
 }
 .categoryHeading:hover .categoryName,
@@ -120,8 +121,9 @@ label {
   position: relative;
   outline: none;
 }
-.partSelector:after, .avatarPartButton:after {
-  content: '';
+.partSelector:after,
+.avatarPartButton:after {
+  content: "";
   display: block;
   position: absolute;
   top: var(--outer-border-offset);
@@ -156,7 +158,8 @@ label {
   margin: 0;
 }
 
-.partThumbnail, .avatarPartButton {
+.partThumbnail,
+.avatarPartButton {
   min-width: var(--thumbnail-size);
   height: var(--thumbnail-size);
   background-color: var(--thumbnail-bg-color);
@@ -224,7 +227,8 @@ label {
   border-top: 2px solid lightgrey;
 }
 
-.toolbarContent button, .toolbarContent .uploadButton {
+.toolbarContent button,
+.toolbarContent .uploadButton {
   display: inline;
   background-color: white;
   border-radius: var(--border-radius);
@@ -240,6 +244,13 @@ label {
 .toolbarContent .uploadButton:hover,
 .toolbarContent .uploadButton:focus {
   background-color: lightgrey;
+}
+.toolbarContent img {
+  width: 30%;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 button.primary {
@@ -293,8 +304,12 @@ button.primary:focus {
 }
 
 @keyframes wave {
-  from { background-position-y: 0 }
-  to { background-position-y: 400px; }
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: 400px;
+  }
 }
 
 .waveContainer {
@@ -304,7 +319,7 @@ button.primary:focus {
   pointer-events: none;
   background-repeat: repeat-y;
   animation: wave 3s infinite;
-  animation-timing-function: cubic-bezier(.2,.52,.79,.49);
+  animation-timing-function: cubic-bezier(0.2, 0.52, 0.79, 0.49);
   /* Move 1 pixel to the left to workaround rendering issue in FF linux */
   left: -1px;
 }

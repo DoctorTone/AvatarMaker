@@ -2,6 +2,7 @@ import React from "react";
 import { Toolbar } from "./Toolbar";
 import { UploadButton } from "./UploadButton";
 import { MoreMenu } from "./MoreMenu";
+import { Logos } from "./Logos";
 import { dispatch } from "../dispatch";
 import constants from "../constants";
 
@@ -18,6 +19,7 @@ export function ToolbarContainer({ onGLBUploaded, randomizeConfig }) {
     <Toolbar>
       <div className="toolbarContent">
         <span className="appName">Avatar Maker</span>
+        <Logos />
         <MoreMenu
           items={
             <>
