@@ -29,6 +29,7 @@ const colors = [
   "gray",
   "pink",
   "red",
+  "purple",
   "white",
   "lavender",
   "mixed",
@@ -42,7 +43,7 @@ const categoryDescription = {
     },
     Color: {
       regExp: new RegExp(`-(${colors.join("|")})$`),
-    }
+    },
   },
   Head: {
     Type: {
@@ -51,7 +52,7 @@ const categoryDescription = {
     },
     "Skin Tone": {
       regExp: /skin-[0-9a-z]/,
-    }
+    },
   },
   Eyes: {
     Style: {
@@ -60,7 +61,7 @@ const categoryDescription = {
     },
     Color: {
       regExp: /style-[0-9a-z][0-9a-z]?-(.+)/,
-    }
+    },
   },
   Eyebrows: {
     Style: {
@@ -69,7 +70,7 @@ const categoryDescription = {
     },
     Color: {
       regExp: /style-[0-9a-z]-(.+)/,
-    }
+    },
   },
   Mouth: {
     Type: {
@@ -78,7 +79,7 @@ const categoryDescription = {
     },
     "Skin Tone": {
       regExp: /skin-[0-9a-z]/,
-    }
+    },
   },
   "Facial Hair": {
     Type: {
@@ -87,7 +88,7 @@ const categoryDescription = {
     },
     Color: {
       regExp: new RegExp(`-(${colors.join("|")})$`),
-    }
+    },
   },
   Torso: {
     Type: {
@@ -96,7 +97,7 @@ const categoryDescription = {
     },
     Outfit: {
       regExp: /style-[0-9a-z]-(.+)/,
-    }
+    },
   },
   "Torso Jacket": {
     Type: {
@@ -105,7 +106,7 @@ const categoryDescription = {
     },
     Outfit: {
       regExp: /style-[0-9a-z]-(.+)/,
-    }
+    },
   },
   Headwear: {
     Type: {
@@ -114,33 +115,25 @@ const categoryDescription = {
     },
     Color: {
       regExp: new RegExp(`-(${colors.join("|")})?$`),
-    }
+    },
   },
 };
 
 const customRandomizationWeights = {
-  "Facial Hair": [
-    {value: null, randomizationWeight: {useLength: true}}
+  "Facial Hair": [{ value: null, randomizationWeight: { useLength: true } }],
+  Headwear: [
+    { value: null, randomizationWeight: { value: 20 } },
+    { value: "headwear_spokemon-mixed", randomizationWeight: { value: 0.1 } },
+    { prefix: "headwear_hijab", randomizationWeight: { value: 0.05 } },
   ],
-  "Headwear": [
-    {value: null, randomizationWeight: {value: 20}},
-    {value: "headwear_spokemon-mixed", randomizationWeight: {value: 0.1}},
-    {prefix: "headwear_hijab", randomizationWeight: {value: 0.05}}
+  Eyewear: [{ value: null, randomizationWeight: { value: 20 } }],
+  Earring: [{ value: null, randomizationWeight: { useLength: true } }],
+  Accessory: [
+    { value: "accessory_face-mask-1-animated", randomizationWeight: { value: 0.5 } },
+    { value: "accessory_pool-mask-1", randomizationWeight: { value: 0.1 } },
   ],
-  "Eyewear": [
-    {value: null, randomizationWeight: {value: 20}}
-  ],
-  "Earring": [
-    {value: null, randomizationWeight: {useLength: true}}
-  ],
-  "Accessory": [
-    {value: "accessory_face-mask-1-animated", randomizationWeight: {value: 0.5}},
-    {value: "accessory_pool-mask-1", randomizationWeight: {value: 0.1}},
-  ],
-  "Torso Jacket": [
-    {value: null, randomizationWeight: {useLength: true}}
-  ],
-}
+  "Torso Jacket": [{ value: null, randomizationWeight: { useLength: true } }],
+};
 
 // TODO: This assumes option names and option values match in both categories. Maybe
 // warn if that's not the case.
@@ -148,15 +141,15 @@ const matchRandomization = {
   "Torso Jacket": {
     categoryName: "Torso",
     primaryOption: "Type",
-    secondaryOption: "Outfit"
-  }
+    secondaryOption: "Outfit",
+  },
 };
 
 const matchRandomizationToNull = [
-  "torso_style-1-bowling-shirt-1-red", 
-  "torso_style-1-combat-vest-red", 
-  "torso_style-1-sport-coat-1-dark", 
-  "torso_style-1-sport-coat-1-gray", 
+  "torso_style-1-bowling-shirt-1-red",
+  "torso_style-1-combat-vest-red",
+  "torso_style-1-sport-coat-1-dark",
+  "torso_style-1-sport-coat-1-gray",
   "torso_style-1-ugly-christmas-1",
   "torso_style-1-waistcoat-and-cravat",
 ];
@@ -165,13 +158,13 @@ const categoriesToBisect = ["Hands", "Eyes", "Eyebrows"];
 const partsToBisect = ["earring_hoop-large-both-gold", "earring_hoop-small-both-gold"];
 
 const morphRelationships = {
-  "headwear_hijab": [
+  headwear_hijab: [
     {
-      targetCategoryName: "Head", 
+      targetCategoryName: "Head",
       targetMorphName: "ear rotate back",
-      targetMorphValue: 1
-    }
-  ]
+      targetMorphValue: 1,
+    },
+  ],
 };
 
 function descriptionForPart({ category, filename }) {
@@ -196,7 +189,7 @@ function descriptionForCategory(categoryName, parts) {
   for (const part of parts) {
     if (part.description) {
       for (const prop of Object.keys(part.description)) {
-        description[prop] = description[prop] || {options: new Set()};
+        description[prop] = description[prop] || { options: new Set() };
         description[prop].options.add(part.description[prop]);
       }
     }
@@ -296,10 +289,9 @@ function generateAssetsStructure(directory) {
     for (const config of configs) {
       const category = orderedAssets[categoryName];
       const weight = config.randomizationWeight.useLength ? category.parts.length : config.randomizationWeight.value;
-      const parts = category.parts.filter(part => (
-        part.value === config.value || 
-        part.value && part.value.startsWith(config.prefix)
-      ));
+      const parts = category.parts.filter(
+        (part) => part.value === config.value || (part.value && part.value.startsWith(config.prefix))
+      );
       for (part of parts) {
         part.randomizationWeight = weight;
       }

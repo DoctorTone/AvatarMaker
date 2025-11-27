@@ -151,6 +151,14 @@ export default {
         }
       },
       {
+        "value": "hair_afro-2-purple",
+        "displayName": "Afro 2 Purple",
+        "description": {
+          "Type": "afro-2",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_afro-2-red",
         "displayName": "Afro 2 Red",
         "description": {
@@ -164,6 +172,14 @@ export default {
         "description": {
           "Type": "afro-2",
           "Color": "white"
+        }
+      },
+      {
+        "value": "hair_afro1-purple",
+        "displayName": "Afro1 Purple",
+        "description": {
+          "Type": "afro1",
+          "Color": "purple"
         }
       },
       {
@@ -228,6 +244,14 @@ export default {
         "description": {
           "Type": "aLine-asym",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_aline-asym-purple",
+        "displayName": "Aline Asym Purple",
+        "description": {
+          "Type": "aline-asym",
+          "Color": "purple"
         }
       },
       {
@@ -311,6 +335,14 @@ export default {
         }
       },
       {
+        "value": "hair_bob-1-purple",
+        "displayName": "Bob 1 Purple",
+        "description": {
+          "Type": "bob-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_bob-1-red",
         "displayName": "Bob 1 Red",
         "description": {
@@ -388,6 +420,14 @@ export default {
         "description": {
           "Type": "braided-bun",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_braided-bun-purple",
+        "displayName": "Braided Bun Purple",
+        "description": {
+          "Type": "braided-bun",
+          "Color": "purple"
         }
       },
       {
@@ -471,6 +511,14 @@ export default {
         }
       },
       {
+        "value": "hair_eraser-top-1-purple",
+        "displayName": "Eraser Top 1 Purple",
+        "description": {
+          "Type": "eraser-top-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_eraser-top-1-red",
         "displayName": "Eraser Top 1 Red",
         "description": {
@@ -548,6 +596,14 @@ export default {
         "description": {
           "Type": "fauxhawk-1",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_fauxhawk-1-purple",
+        "displayName": "Fauxhawk 1 Purple",
+        "description": {
+          "Type": "fauxhawk-1",
+          "Color": "purple"
         }
       },
       {
@@ -631,6 +687,14 @@ export default {
         }
       },
       {
+        "value": "hair_flat-top-1-purple",
+        "displayName": "Flat Top 1 Purple",
+        "description": {
+          "Type": "flat-top-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_flat-top-1-red",
         "displayName": "Flat Top 1 Red",
         "description": {
@@ -708,6 +772,14 @@ export default {
         "description": {
           "Type": "french-braid-buns",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_french-braid-buns-purple",
+        "displayName": "French Braid Buns Purple",
+        "description": {
+          "Type": "french-braid-buns",
+          "Color": "purple"
         }
       },
       {
@@ -791,6 +863,14 @@ export default {
         }
       },
       {
+        "value": "hair_french-braids-double-purple",
+        "displayName": "French Braids Double Purple",
+        "description": {
+          "Type": "french-braids-double",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_french-braids-double-red",
         "displayName": "French Braids Double Red",
         "description": {
@@ -868,6 +948,14 @@ export default {
         "description": {
           "Type": "mohawk-1",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_mohawk-1-purple",
+        "displayName": "Mohawk 1 Purple",
+        "description": {
+          "Type": "mohawk-1",
+          "Color": "purple"
         }
       },
       {
@@ -951,6 +1039,14 @@ export default {
         }
       },
       {
+        "value": "hair_mullet-1-purple",
+        "displayName": "Mullet 1 Purple",
+        "description": {
+          "Type": "mullet-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_mullet-1-red",
         "displayName": "Mullet 1 Red",
         "description": {
@@ -1028,6 +1124,14 @@ export default {
         "description": {
           "Type": "parted-1",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_parted-1-purple",
+        "displayName": "Parted 1 Purple",
+        "description": {
+          "Type": "parted-1",
+          "Color": "purple"
         }
       },
       {
@@ -1111,6 +1215,14 @@ export default {
         }
       },
       {
+        "value": "hair_parted-long-1-purple",
+        "displayName": "Parted Long 1 Purple",
+        "description": {
+          "Type": "parted-long-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_parted-long-1-red",
         "displayName": "Parted Long 1 Red",
         "description": {
@@ -1188,6 +1300,14 @@ export default {
         "description": {
           "Type": "pigtails-1",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_pigtails-1-purple",
+        "displayName": "Pigtails 1 Purple",
+        "description": {
+          "Type": "pigtails-1",
+          "Color": "purple"
         }
       },
       {
@@ -1271,6 +1391,14 @@ export default {
         }
       },
       {
+        "value": "hair_pony-tail-1-purple",
+        "displayName": "Pony Tail 1 Purple",
+        "description": {
+          "Type": "pony-tail-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_pony-tail-1-red",
         "displayName": "Pony Tail 1 Red",
         "description": {
@@ -1348,6 +1476,14 @@ export default {
         "description": {
           "Type": "pony-tail-2",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_pony-tail-2-purple",
+        "displayName": "Pony Tail 2 Purple",
+        "description": {
+          "Type": "pony-tail-2",
+          "Color": "purple"
         }
       },
       {
@@ -1431,6 +1567,14 @@ export default {
         }
       },
       {
+        "value": "hair_pony-tail-3-purple",
+        "displayName": "Pony Tail 3 Purple",
+        "description": {
+          "Type": "pony-tail-3",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_pony-tail-3-red",
         "displayName": "Pony Tail 3 Red",
         "description": {
@@ -1508,6 +1652,14 @@ export default {
         "description": {
           "Type": "short-wave-1",
           "Color": "pink"
+        }
+      },
+      {
+        "value": "hair_short-wave-1-purple",
+        "displayName": "Short Wave 1 Purple",
+        "description": {
+          "Type": "short-wave-1",
+          "Color": "purple"
         }
       },
       {
@@ -1591,6 +1743,14 @@ export default {
         }
       },
       {
+        "value": "hair_spikey-1-purple",
+        "displayName": "Spikey 1 Purple",
+        "description": {
+          "Type": "spikey-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_spikey-1-red",
         "displayName": "Spikey 1 Red",
         "description": {
@@ -1671,6 +1831,14 @@ export default {
         }
       },
       {
+        "value": "hair_taper-afro-2-purple",
+        "displayName": "Taper Afro 2 Purple",
+        "description": {
+          "Type": "taper-afro-2",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_taper-afro-2-red",
         "displayName": "Taper Afro 2 Red",
         "description": {
@@ -1693,7 +1861,9 @@ export default {
           null,
           "afro-1",
           "afro-2",
+          "afro1",
           "aLine-asym",
+          "aline-asym",
           "bob-1",
           "braided-bun",
           "eraser-top-1",
@@ -1726,7 +1896,8 @@ export default {
           "light brown",
           "pink",
           "red",
-          "white"
+          "white",
+          "purple"
         ]
       }
     }
