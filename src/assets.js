@@ -3928,14 +3928,6 @@ export default {
         }
       },
       {
-        "value": "torso_style-1-tshirt-1-union-jack",
-        "displayName": "Style 1 Tshirt 1 Union Jack",
-        "description": {
-          "Type": "style-1",
-          "Outfit": "tshirt-1-union-jack"
-        }
-      },
-      {
         "value": "torso_style-1-tshirt-pride01",
         "displayName": "Style 1 Tshirt Pride01",
         "description": {
@@ -4129,7 +4121,6 @@ export default {
           "tshirt-1-hubs-light-gray",
           "tshirt-1-hubs-white",
           "tshirt-1-moz",
-          "tshirt-1-union-jack",
           "tshirt-pride01",
           "tshirt-pride02",
           "tshirt-pride03",

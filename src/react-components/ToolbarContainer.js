@@ -17,7 +17,7 @@ export function ToolbarContainer({ onGLBUploaded, randomizeConfig }) {
   return (
     <Toolbar>
       <div className="toolbarContent">
-        <span className="appName">Digilabs Avatar Maker</span>
+        <span className="appName">Avatar Maker</span>
         <MoreMenu
           items={
             <>
@@ -36,11 +36,7 @@ export function ToolbarContainer({ onGLBUploaded, randomizeConfig }) {
       </div>
       <div className="toolbarNotice">
         <span>
-          The 3D models used in this app are ©2020-2022 by individual{" "}
-          <a href="https://www.mozilla.org" target="_blank" noreferrer>
-            mozilla.org
-          </a>{" "}
-          contributors. Content available under a{" "}
+          Content available under a{" "}
           <a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/" target="_blank" noreferrer>
             Creative Commons license
           </a>
