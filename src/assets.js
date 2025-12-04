@@ -2038,6 +2038,22 @@ export default {
         }
       },
       {
+        "value": "head_bald-skin-i",
+        "displayName": "Bald Skin I",
+        "description": {
+          "Type": "bald",
+          "Skin Tone": "skin-i"
+        }
+      },
+      {
+        "value": "head_bald-skin-j",
+        "displayName": "Bald Skin J",
+        "description": {
+          "Type": "bald",
+          "Skin Tone": "skin-j"
+        }
+      },
+      {
         "value": "head_freckles-skin-1",
         "displayName": "Freckles Skin 1",
         "description": {
@@ -2321,7 +2337,9 @@ export default {
           "skin-e",
           "skin-f",
           "skin-g",
-          "skin-h"
+          "skin-h",
+          "skin-i",
+          "skin-j"
         ]
       }
     }
@@ -4046,6 +4064,10 @@ export default {
         "displayName": "Skin B"
       },
       {
+        "value": "hands_skin-blue",
+        "displayName": "Skin Blue"
+      },
+      {
         "value": "hands_skin-c",
         "displayName": "Skin C"
       },
@@ -4064,6 +4086,10 @@ export default {
       {
         "value": "hands_skin-g",
         "displayName": "Skin G"
+      },
+      {
+        "value": "hands_skin-green",
+        "displayName": "Skin Green"
       },
       {
         "value": "hands_skin-h",
@@ -4111,6 +4137,14 @@ export default {
         "description": {
           "Type": "style-1",
           "Outfit": "heart"
+        }
+      },
+      {
+        "value": "torso_style-1-loogabarooga",
+        "displayName": "Style 1 Loogabarooga",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "loogabarooga"
         }
       },
       {
@@ -4365,6 +4399,7 @@ export default {
           "combat-vest-red",
           "digilabs-white",
           "heart",
+          "loogabarooga",
           "player-one-white",
           "sport-coat-1-dark",
           "sport-coat-1-gray",
@@ -4657,6 +4692,14 @@ export default {
         }
       },
       {
+        "value": "headwear_graduation-gray",
+        "displayName": "Graduation Gray",
+        "description": {
+          "Type": "graduation",
+          "Color": "gray"
+        }
+      },
+      {
         "value": "headwear_helmet-mixed",
         "displayName": "Helmet Mixed",
         "description": {
@@ -4785,6 +4828,7 @@ export default {
           "beach-umbrella",
           "beanie-1",
           "digilabs",
+          "graduation",
           "helmet",
           "hijab",
           "spokemon",
@@ -4797,9 +4841,9 @@ export default {
           "mixed",
           "red",
           "pink",
+          "gray",
           "black",
           "blue",
-          "gray",
           "lavender",
           "white"
         ]
