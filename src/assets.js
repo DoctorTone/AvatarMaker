@@ -4366,14 +4366,6 @@ export default {
         }
       },
       {
-        "value": "torso_style-2-tshirt-union-jack",
-        "displayName": "Style 2 Tshirt Union Jack",
-        "description": {
-          "Type": "style-2",
-          "Outfit": "tshirt-union-jack"
-        }
-      },
-      {
         "value": "torso_style-2-tshirt1-reactor",
         "displayName": "Style 2 Tshirt1 Reactor",
         "description": {
@@ -4416,8 +4408,7 @@ export default {
           "blouse-1-purple",
           "tshirt-1-baby-unicorn",
           "tshirt-1-heart-animated",
-          "tshirt-1-heart",
-          "tshirt-union-jack"
+          "tshirt-1-heart"
         ]
       }
     }
