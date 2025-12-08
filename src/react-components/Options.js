@@ -1,0 +1,35 @@
+import React from "react";
+import { MoreMenu } from "./MoreMenu";
+import { UploadButton } from "./UploadButton";
+import { dispatch } from "../dispatch";
+import constants from "../constants";
+
+function dispatchResetView() {
+  dispatch(constants.resetView);
+}
+
+function dispatchExportAvatar() {
+  dispatch(constants.exportAvatar);
+}
+
+export const Options = ({ onGLBUploaded, randomizeConfig }) => {
+  return (
+    <div className="appOptions">
+      <MoreMenu
+        items={
+          <>
+            <UploadButton onGLBUploaded={onGLBUploaded} />
+            <a href="https://github.com/mozilla/hackweek-avatar-maker" target="_blank">
+              GitHub
+            </a>
+          </>
+        }
+      ></MoreMenu>
+      <button onClick={randomizeConfig}>Randomize avatar</button>
+      <button onClick={dispatchResetView}>Reset camera view</button>
+      <button onClick={dispatchExportAvatar} className="primary">
+        Export avatar
+      </button>
+    </div>
+  );
+};

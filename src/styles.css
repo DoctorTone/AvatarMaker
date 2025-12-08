@@ -222,7 +222,6 @@ label {
   padding: 20px 20px;
   padding-bottom: 5px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   border-top: 2px solid lightgrey;
 }
@@ -268,10 +267,27 @@ button.primary:focus {
   display: none;
 }
 
-.appName {
-  flex: 1;
-  font-size: 12pt;
+.appLogos {
   display: flex;
+  flex: 1;
+  justify-content: "flex-start";
+  align-items: center;
+}
+.appLogos img {
+  width: 55%;
+}
+
+.appTitle {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-size: 12pt;
+}
+
+.appOptions {
+  display: flex;
+  flex: 1;
+  justify-content: "flex-end";
   align-items: center;
 }
 
@@ -332,8 +348,11 @@ button.primary:focus {
     padding: 20px 40px;
     padding-bottom: 10px;
   }
-  .appName {
+  .appTitle {
     font-size: 24pt;
+  }
+  .appLogos img {
+    width: 35%;
   }
   .menu {
     bottom: 85px;

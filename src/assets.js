@@ -71,6 +71,14 @@ export default {
         }
       },
       {
+        "value": "hair_afro-1-purple",
+        "displayName": "Afro 1 Purple",
+        "description": {
+          "Type": "afro-1",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "hair_afro-1-red",
         "displayName": "Afro 1 Red",
         "description": {
@@ -175,14 +183,6 @@ export default {
         }
       },
       {
-        "value": "hair_afro1-purple",
-        "displayName": "Afro1 Purple",
-        "description": {
-          "Type": "afro1",
-          "Color": "purple"
-        }
-      },
-      {
         "value": "hair_aLine-asym-black",
         "displayName": "ALine Asym Black",
         "description": {
@@ -247,10 +247,10 @@ export default {
         }
       },
       {
-        "value": "hair_aline-asym-purple",
-        "displayName": "Aline Asym Purple",
+        "value": "hair_aLine-asym-purple",
+        "displayName": "ALine Asym Purple",
         "description": {
-          "Type": "aline-asym",
+          "Type": "aLine-asym",
           "Color": "purple"
         }
       },
@@ -1861,9 +1861,7 @@ export default {
           null,
           "afro-1",
           "afro-2",
-          "afro1",
           "aLine-asym",
-          "aline-asym",
           "bob-1",
           "braided-bun",
           "eraser-top-1",
@@ -1895,9 +1893,9 @@ export default {
           "gray",
           "light brown",
           "pink",
+          "purple",
           "red",
-          "white",
-          "purple"
+          "white"
         ]
       }
     }
