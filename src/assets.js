@@ -3352,6 +3352,14 @@ export default {
         }
       },
       {
+        "value": "mouth_neutral-skin-i",
+        "displayName": "Neutral Skin I",
+        "description": {
+          "Type": "neutral",
+          "Skin Tone": "skin-i"
+        }
+      },
+      {
         "value": "mouth_smirk-skin-1",
         "displayName": "Smirk Skin 1",
         "description": {
@@ -3478,6 +3486,14 @@ export default {
           "Type": "smirk",
           "Skin Tone": "skin-h"
         }
+      },
+      {
+        "value": "mouth_smirk-skin-i",
+        "displayName": "Smirk Skin I",
+        "description": {
+          "Type": "smirk",
+          "Skin Tone": "skin-i"
+        }
       }
     ],
     "description": {
@@ -3506,7 +3522,8 @@ export default {
           "skin-e",
           "skin-f",
           "skin-g",
-          "skin-h"
+          "skin-h",
+          "skin-i"
         ]
       }
     }
@@ -3517,7 +3534,7 @@ export default {
         "value": null,
         "displayName": "None",
         "excludeFromRandomize": false,
-        "randomizationWeight": 59
+        "randomizationWeight": 61
       },
       {
         "value": "facial-hair_beard-full-1-black",
@@ -3982,6 +3999,22 @@ export default {
           "Type": "mustache-2",
           "Color": "white"
         }
+      },
+      {
+        "value": "facial-hair_stubble-1-black",
+        "displayName": "Stubble 1 Black",
+        "description": {
+          "Type": "stubble-1",
+          "Color": "black"
+        }
+      },
+      {
+        "value": "facial-hair_whiskers-1-black",
+        "displayName": "Whiskers 1 Black",
+        "description": {
+          "Type": "whiskers-1",
+          "Color": "black"
+        }
       }
     ],
     "description": {
@@ -3996,7 +4029,9 @@ export default {
           "goatee-4",
           "goatee-5",
           "mustache-1",
-          "mustache-2"
+          "mustache-2",
+          "stubble-1",
+          "whiskers-1"
         ],
         "isPrimaryOption": true
       },
@@ -4154,6 +4189,22 @@ export default {
         }
       },
       {
+        "value": "torso_style-1-purple-digilabs",
+        "displayName": "Style 1 Purple Digilabs",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "purple-digilabs"
+        }
+      },
+      {
+        "value": "torso_style-1-smart-shirt-cream-purple",
+        "displayName": "Style 1 Smart Shirt Cream Purple",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "smart-shirt-cream-purple"
+        }
+      },
+      {
         "value": "torso_style-1-sport-coat-1-dark",
         "displayName": "Style 1 Sport Coat 1 Dark",
         "description": {
@@ -4170,6 +4221,30 @@ export default {
           "Outfit": "sport-coat-1-gray"
         },
         "matchRandomizationToNull": true
+      },
+      {
+        "value": "torso_style-1-sprite-runner-rainbow",
+        "displayName": "Style 1 Sprite Runner Rainbow",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "sprite-runner-rainbow"
+        }
+      },
+      {
+        "value": "torso_style-1-t-shirt-rainbow",
+        "displayName": "Style 1 T Shirt Rainbow",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "t-shirt-rainbow"
+        }
+      },
+      {
+        "value": "torso_style-1-t-shirt-sprite-grey",
+        "displayName": "Style 1 T Shirt Sprite Grey",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "t-shirt-sprite-grey"
+        }
       },
       {
         "value": "torso_style-1-tshirt-1-hubs-black",
@@ -4275,6 +4350,38 @@ export default {
         "description": {
           "Type": "style-2",
           "Outfit": "blouse-1-purple"
+        }
+      },
+      {
+        "value": "torso_style-2-shirt-light-blue",
+        "displayName": "Style 2 Shirt Light Blue",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "shirt-light-blue"
+        }
+      },
+      {
+        "value": "torso_style-2-shirt-pink",
+        "displayName": "Style 2 Shirt Pink",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "shirt-pink"
+        }
+      },
+      {
+        "value": "torso_style-2-sprite-runner-rainbow",
+        "displayName": "Style 2 Sprite Runner Rainbow",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "sprite-runner-rainbow"
+        }
+      },
+      {
+        "value": "torso_style-2-t-shirt-rainbow",
+        "displayName": "Style 2 T Shirt Rainbow",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "t-shirt-rainbow"
         }
       },
       {
@@ -4391,8 +4498,13 @@ export default {
           "heart",
           "loogabarooga",
           "player-one-white",
+          "purple-digilabs",
+          "smart-shirt-cream-purple",
           "sport-coat-1-dark",
           "sport-coat-1-gray",
+          "sprite-runner-rainbow",
+          "t-shirt-rainbow",
+          "t-shirt-sprite-grey",
           "tshirt-1-hubs-black",
           "tshirt-1-hubs-gray",
           "tshirt-1-hubs-light-gray",
@@ -4406,6 +4518,8 @@ export default {
           "uni-white",
           "waistcoat-and-cravat",
           "blouse-1-purple",
+          "shirt-light-blue",
+          "shirt-pink",
           "tshirt-1-baby-unicorn",
           "tshirt-1-heart-animated",
           "tshirt-1-heart"
@@ -4419,7 +4533,7 @@ export default {
         "value": null,
         "displayName": "None",
         "excludeFromRandomize": false,
-        "randomizationWeight": 25
+        "randomizationWeight": 26
       },
       {
         "value": "torso-jacket_style-1-hoodie-1-black",
@@ -4467,6 +4581,14 @@ export default {
         "description": {
           "Type": "style-1",
           "Outfit": "hoodie-1-red"
+        }
+      },
+      {
+        "value": "torso-jacket_style-1-labcoat",
+        "displayName": "Style 1 Labcoat",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "labcoat"
         }
       },
       {
@@ -4631,6 +4753,7 @@ export default {
           "hoodie-1-green",
           "hoodie-1-light-gray",
           "hoodie-1-red",
+          "labcoat",
           "punk-leather-1-black",
           "punk-leather-1-blue",
           "punk-leather-1-brown",
@@ -4670,6 +4793,30 @@ export default {
         "description": {
           "Type": "beanie-1",
           "Color": "red"
+        }
+      },
+      {
+        "value": "headwear_beanie-purple",
+        "displayName": "Beanie Purple",
+        "description": {
+          "Type": "beanie",
+          "Color": "purple"
+        }
+      },
+      {
+        "value": "headwear_bobble-hat-large-purple",
+        "displayName": "Bobble Hat Large Purple",
+        "description": {
+          "Type": "bobble-hat-large",
+          "Color": "purple"
+        }
+      },
+      {
+        "value": "headwear_bobble-hat-small-purple",
+        "displayName": "Bobble Hat Small Purple",
+        "description": {
+          "Type": "bobble-hat-small",
+          "Color": "purple"
         }
       },
       {
@@ -4793,6 +4940,22 @@ export default {
         "randomizationWeight": 0.05
       },
       {
+        "value": "headwear_safety-helmet-large-yellow",
+        "displayName": "Safety Helmet Large Yellow",
+        "description": {
+          "Type": "safety-helmet-large",
+          "Color": "yellow"
+        }
+      },
+      {
+        "value": "headwear_safety-helmet-small-yellow",
+        "displayName": "Safety Helmet Small Yellow",
+        "description": {
+          "Type": "safety-helmet-small",
+          "Color": "yellow"
+        }
+      },
+      {
         "value": "headwear_spokemon-mixed",
         "displayName": "Spokemon Mixed",
         "description": {
@@ -4808,6 +4971,38 @@ export default {
           "Type": "top-hat-1",
           "Color": "black"
         }
+      },
+      {
+        "value": "headwear_witches-hat-big-1-black",
+        "displayName": "Witches Hat Big 1 Black",
+        "description": {
+          "Type": "witches-hat-big-1",
+          "Color": "black"
+        }
+      },
+      {
+        "value": "headwear_witches-hat-big-2-purple",
+        "displayName": "Witches Hat Big 2 Purple",
+        "description": {
+          "Type": "witches-hat-big-2",
+          "Color": "purple"
+        }
+      },
+      {
+        "value": "headwear_witches-hat-small-1-black",
+        "displayName": "Witches Hat Small 1 Black",
+        "description": {
+          "Type": "witches-hat-small-1",
+          "Color": "black"
+        }
+      },
+      {
+        "value": "headwear_witches-hat-small-2-purple",
+        "displayName": "Witches Hat Small 2 Purple",
+        "description": {
+          "Type": "witches-hat-small-2",
+          "Color": "purple"
+        }
       }
     ],
     "description": {
@@ -4816,12 +5011,21 @@ export default {
           null,
           "beach-umbrella",
           "beanie-1",
+          "beanie",
+          "bobble-hat-large",
+          "bobble-hat-small",
           "digilabs",
           "graduation",
           "helmet",
           "hijab",
+          "safety-helmet-large",
+          "safety-helmet-small",
           "spokemon",
-          "top-hat-1"
+          "top-hat-1",
+          "witches-hat-big-1",
+          "witches-hat-big-2",
+          "witches-hat-small-1",
+          "witches-hat-small-2"
         ],
         "isPrimaryOption": true
       },
@@ -4829,12 +5033,14 @@ export default {
         "options": [
           "mixed",
           "red",
+          "purple",
           "pink",
           "gray",
           "black",
           "blue",
           "lavender",
-          "white"
+          "white",
+          "yellow"
         ]
       }
     }
@@ -4850,6 +5056,10 @@ export default {
       {
         "value": "eyewear_aviators1",
         "displayName": "Aviators1"
+      },
+      {
+        "value": "eyewear_black-glasses",
+        "displayName": "Black Glasses"
       },
       {
         "value": "eyewear_cool",
@@ -4874,6 +5084,10 @@ export default {
       {
         "value": "eyewear_punk-2",
         "displayName": "Punk 2"
+      },
+      {
+        "value": "eyewear_purple-glasses-1",
+        "displayName": "Purple Glasses 1"
       },
       {
         "value": "eyewear_sports-red",
@@ -4925,6 +5139,10 @@ export default {
         "excludeFromRandomize": false
       },
       {
+        "value": "accessory_cats-ears-purple",
+        "displayName": "Cats Ears Purple"
+      },
+      {
         "value": "accessory_duck-floaty",
         "displayName": "Duck Floaty"
       },
@@ -4946,9 +5164,25 @@ export default {
         "displayName": "Headphones 1 Purple"
       },
       {
+        "value": "accessory_necklace",
+        "displayName": "Necklace"
+      },
+      {
         "value": "accessory_pool-mask-1",
         "displayName": "Pool Mask 1",
         "randomizationWeight": 0.1
+      },
+      {
+        "value": "accessory_unicorn-floatie",
+        "displayName": "Unicorn Floatie"
+      },
+      {
+        "value": "accessory_watch",
+        "displayName": "Watch"
+      },
+      {
+        "value": "accessory_wings-white",
+        "displayName": "Wings White"
       }
     ]
   }

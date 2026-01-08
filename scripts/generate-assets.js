@@ -32,6 +32,7 @@ const colors = [
   "purple",
   "white",
   "lavender",
+  "yellow",
   "mixed",
 ];
 
