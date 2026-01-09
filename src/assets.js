@@ -4353,6 +4353,54 @@ export default {
         }
       },
       {
+        "value": "torso_style-2-blouse-grey",
+        "displayName": "Style 2 Blouse Grey",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "blouse-grey"
+        }
+      },
+      {
+        "value": "torso_style-2-blouse-pink",
+        "displayName": "Style 2 Blouse Pink",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "blouse-pink"
+        }
+      },
+      {
+        "value": "torso_style-2-digilabs",
+        "displayName": "Style 2 Digilabs",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "digilabs"
+        }
+      },
+      {
+        "value": "torso_style-2-loogabarooga",
+        "displayName": "Style 2 Loogabarooga",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "loogabarooga"
+        }
+      },
+      {
+        "value": "torso_style-2-LU logo",
+        "displayName": "Style 2 LU logo",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "LU logo"
+        }
+      },
+      {
+        "value": "torso_style-2-readyplayerone",
+        "displayName": "Style 2 Readyplayerone",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "readyplayerone"
+        }
+      },
+      {
         "value": "torso_style-2-shirt-light-blue",
         "displayName": "Style 2 Shirt Light Blue",
         "description": {
@@ -4518,6 +4566,11 @@ export default {
           "uni-white",
           "waistcoat-and-cravat",
           "blouse-1-purple",
+          "blouse-grey",
+          "blouse-pink",
+          "digilabs",
+          "LU logo",
+          "readyplayerone",
           "shirt-light-blue",
           "shirt-pink",
           "tshirt-1-baby-unicorn",
@@ -4533,7 +4586,7 @@ export default {
         "value": null,
         "displayName": "None",
         "excludeFromRandomize": false,
-        "randomizationWeight": 26
+        "randomizationWeight": 28
       },
       {
         "value": "torso-jacket_style-1-hoodie-1-black",
@@ -4581,6 +4634,14 @@ export default {
         "description": {
           "Type": "style-1",
           "Outfit": "hoodie-1-red"
+        }
+      },
+      {
+        "value": "torso-jacket_style-1-hoody-pink-purple-soft",
+        "displayName": "Style 1 Hoody Pink Purple Soft",
+        "description": {
+          "Type": "style-1",
+          "Outfit": "hoody-pink-purple-soft"
         }
       },
       {
@@ -4688,6 +4749,14 @@ export default {
         }
       },
       {
+        "value": "torso-jacket_style-2-hoody-pink-purple-soft",
+        "displayName": "Style 2 Hoody Pink Purple Soft",
+        "description": {
+          "Type": "style-2",
+          "Outfit": "hoody-pink-purple-soft"
+        }
+      },
+      {
         "value": "torso-jacket_style-2-punk-leather-1-black",
         "displayName": "Style 2 Punk Leather 1 Black",
         "description": {
@@ -4753,6 +4822,7 @@ export default {
           "hoodie-1-green",
           "hoodie-1-light-gray",
           "hoodie-1-red",
+          "hoody-pink-purple-soft",
           "labcoat",
           "punk-leather-1-black",
           "punk-leather-1-blue",
@@ -4940,6 +5010,22 @@ export default {
         "randomizationWeight": 0.05
       },
       {
+        "value": "headwear_LU-hat-big-purple",
+        "displayName": "LU Hat Big Purple",
+        "description": {
+          "Type": "LU-hat-big",
+          "Color": "purple"
+        }
+      },
+      {
+        "value": "headwear_LU-sport-hat-small-purple",
+        "displayName": "LU Sport Hat Small Purple",
+        "description": {
+          "Type": "LU-sport-hat-small",
+          "Color": "purple"
+        }
+      },
+      {
         "value": "headwear_safety-helmet-large-yellow",
         "displayName": "Safety Helmet Large Yellow",
         "description": {
@@ -5018,6 +5104,8 @@ export default {
           "graduation",
           "helmet",
           "hijab",
+          "LU-hat-big",
+          "LU-sport-hat-small",
           "safety-helmet-large",
           "safety-helmet-small",
           "spokemon",
@@ -5137,6 +5225,14 @@ export default {
         "value": null,
         "displayName": "None",
         "excludeFromRandomize": false
+      },
+      {
+        "value": "accessory_bangles-purple",
+        "displayName": "Bangles Purple"
+      },
+      {
+        "value": "accessory_bangles-silver",
+        "displayName": "Bangles Silver"
       },
       {
         "value": "accessory_cats-ears-purple",
