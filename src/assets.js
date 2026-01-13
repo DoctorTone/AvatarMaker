@@ -5269,6 +5269,10 @@ export default {
         "randomizationWeight": 0.1
       },
       {
+        "value": "accessory_pram",
+        "displayName": "Pram"
+      },
+      {
         "value": "accessory_unicorn-floatie",
         "displayName": "Unicorn Floatie"
       },
