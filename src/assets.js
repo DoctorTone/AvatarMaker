@@ -5187,34 +5187,46 @@ export default {
       }
     ]
   },
-  "Earring": {
+  "Jewellery": {
     "parts": [
       {
         "value": null,
         "displayName": "None",
         "excludeFromRandomize": false,
-        "randomizationWeight": 6
+        "randomizationWeight": 9
       },
       {
-        "value": "earring_hoop-high-left-silver",
+        "value": "jewellery_bangles-purple",
+        "displayName": "Bangles Purple"
+      },
+      {
+        "value": "jewellery_bangles-silver",
+        "displayName": "Bangles Silver"
+      },
+      {
+        "value": "jewellery_hoop-high-left-silver",
         "displayName": "Hoop High Left Silver"
       },
       {
-        "value": "earring_hoop-high-right-silver",
+        "value": "jewellery_hoop-high-right-silver",
         "displayName": "Hoop High Right Silver"
       },
       {
-        "value": "earring_hoop-large-both-gold",
+        "value": "jewellery_hoop-large-both-gold",
         "displayName": "Hoop Large Both Gold",
         "bisectInThumbnail": true
       },
       {
-        "value": "earring_hoop-small-both-gold",
+        "value": "jewellery_hoop-small-both-gold",
         "displayName": "Hoop Small Both Gold",
         "bisectInThumbnail": true
       },
       {
-        "value": "earring_studded-hoops-silver",
+        "value": "jewellery_necklace",
+        "displayName": "Necklace"
+      },
+      {
+        "value": "jewellery_studded-hoops-silver",
         "displayName": "Studded Hoops Silver"
       }
     ]
@@ -5225,14 +5237,6 @@ export default {
         "value": null,
         "displayName": "None",
         "excludeFromRandomize": false
-      },
-      {
-        "value": "accessory_bangles-purple",
-        "displayName": "Bangles Purple"
-      },
-      {
-        "value": "accessory_bangles-silver",
-        "displayName": "Bangles Silver"
       },
       {
         "value": "accessory_cats-ears-purple",
@@ -5258,10 +5262,6 @@ export default {
       {
         "value": "accessory_headphones-1-purple",
         "displayName": "Headphones 1 Purple"
-      },
-      {
-        "value": "accessory_necklace",
-        "displayName": "Necklace"
       },
       {
         "value": "accessory_pool-mask-1",

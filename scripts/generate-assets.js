@@ -15,7 +15,7 @@ const assetOrder = [
   "Torso Jacket",
   "Headwear",
   "Eyewear",
-  "Earring",
+  "Jewellery",
   "Accessory",
 ];
 
@@ -128,7 +128,7 @@ const customRandomizationWeights = {
     { prefix: "headwear_hijab", randomizationWeight: { value: 0.05 } },
   ],
   Eyewear: [{ value: null, randomizationWeight: { value: 20 } }],
-  Earring: [{ value: null, randomizationWeight: { useLength: true } }],
+  Jewellery: [{ value: null, randomizationWeight: { useLength: true } }],
   Accessory: [
     { value: "accessory_face-mask-1-animated", randomizationWeight: { value: 0.5 } },
     { value: "accessory_pool-mask-1", randomizationWeight: { value: 0.1 } },
@@ -156,7 +156,7 @@ const matchRandomizationToNull = [
 ];
 
 const categoriesToBisect = ["Hands", "Eyes", "Eyebrows"];
-const partsToBisect = ["earring_hoop-large-both-gold", "earring_hoop-small-both-gold"];
+const partsToBisect = ["jewellery_hoop-large-both-gold", "jewellery_hoop-small-both-gold"];
 
 const morphRelationships = {
   headwear_hijab: [
