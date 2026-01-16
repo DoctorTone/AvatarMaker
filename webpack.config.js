@@ -36,6 +36,8 @@ module.exports = {
       publicPath: publicPath,
     },
     host: "0.0.0.0",
+    hot: false,
+    liveReload: false,
   },
   optimization: {
     splitChunks: {
